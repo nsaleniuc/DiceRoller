@@ -10,15 +10,15 @@ public class DiceRoll {
 
         System.out.println("Enter number of sides for a pair of dice: ");
         int sidesDice = scan.nextInt();
-        scan.nextLine();
+        scan.nextLine();//cleans out scanner
 
-        while (cont.equalsIgnoreCase("y")) {
+        while (cont.equalsIgnoreCase("y")) {//loop to continue rolling dice
 
-            pressAnyKeyToContinue();
+            pressAnyKeyToContinue();//allows user to enter any key to roll
 
             int i = sidesDice;
-            int randomNum1 = (int) (Math.random() * i);
-            int randomNum2 = (int) (Math.random() * i);
+            int randomNum1 = (int) (Math.random() * i);//since rardomNum is 0.0-1.0, i multiplied it by
+            int randomNum2 = (int) (Math.random() * i);//'i' which equals the amount of sides on dice
 
             System.out.println("You rolled: ");
             System.out.println(randomNum1);
