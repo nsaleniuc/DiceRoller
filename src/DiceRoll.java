@@ -14,7 +14,7 @@ public class DiceRoll {
 
         while (cont.equalsIgnoreCase("y")) {//loop to continue rolling dice
 
-            pressAnyKeyToContinue();//allows user to enter any key to roll
+            pressEnterKeyToContinue();//allows user to press 'enter' key to roll
 
             int randomNum1 = (int) (Math.random() * sidesDice);//since rardomNum is 0.0-1.0, i multiplied it by
             int randomNum2 = (int) (Math.random() * sidesDice);//'i' which equals the amount of sides on dice
@@ -36,7 +36,7 @@ public class DiceRoll {
 
 
 
-    public static void pressAnyKeyToContinue() {
+    public static void pressEnterKeyToContinue() {
         System.out.println("Press 'Enter' to roll dice: ");
         try {
             System.in.read();
