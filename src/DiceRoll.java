@@ -27,7 +27,7 @@ public class DiceRoll {
             System.out.println("Roll again? y/n");
             cont = scan.nextLine();
             if (!cont.equalsIgnoreCase("y")) {
-                System.out.println("Are you sure? Press 'q' to quit.");
+                System.out.println("Are you sure? Press 'q' to quit, 'y' to continue playing.");
                 cont = scan.nextLine();
             }
         }

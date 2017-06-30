@@ -18,8 +18,8 @@
       <file leaf-file-name="DiceRoll.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/DiceRoll.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-102">
-              <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+            <state relative-caret-position="272">
+              <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -526,12 +526,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1498766103061</updated>
-      <workItem from="1498766106646" duration="5480000" />
+      <workItem from="1498766106646" duration="6300000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5480000" />
+    <option name="totallyTimeSpent" value="6300000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1370" height="735" extended-state="0" />
@@ -585,8 +585,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/DiceRoll.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+        <state relative-caret-position="272">
+          <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
           <folding />
         </state>
       </provider>
