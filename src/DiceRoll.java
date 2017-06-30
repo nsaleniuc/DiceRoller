@@ -16,9 +16,8 @@ public class DiceRoll {
 
             pressAnyKeyToContinue();//allows user to enter any key to roll
 
-            int i = sidesDice;
-            int randomNum1 = (int) (Math.random() * i);//since rardomNum is 0.0-1.0, i multiplied it by
-            int randomNum2 = (int) (Math.random() * i);//'i' which equals the amount of sides on dice
+            int randomNum1 = (int) (Math.random() * sidesDice);//since rardomNum is 0.0-1.0, i multiplied it by
+            int randomNum2 = (int) (Math.random() * sidesDice);//'i' which equals the amount of sides on dice
 
             System.out.println("You rolled: ");
             System.out.println(randomNum1);
