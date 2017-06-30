@@ -38,7 +38,7 @@ public class DiceRoll {
 
 
     public static void pressAnyKeyToContinue() {
-        System.out.println("Press any key to roll dice: ");
+        System.out.println("Press 'Enter' to roll dice: ");
         try {
             System.in.read();
         } catch (Exception e) {
