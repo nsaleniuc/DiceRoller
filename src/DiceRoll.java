@@ -16,8 +16,8 @@ public class DiceRoll {
 
             pressEnterKeyToContinue();//allows user to press 'enter' key to roll
 
-            int randomNum1 = (int) (Math.random() * sidesDice);//since rardomNum is 0.0-1.0, i multiplied it by
-            int randomNum2 = (int) (Math.random() * sidesDice);//'i' which equals the amount of sides on dice
+            int randomNum1 = (int) (Math.random() * sidesDice + 1);//since rardomNum is 0.0-1.0, i multiplied it by
+            int randomNum2 = (int) (Math.random() * sidesDice + 1);//'i' which equals the amount of sides on dice
 
             System.out.println("You rolled: ");
             System.out.println(randomNum1);
@@ -32,9 +32,6 @@ public class DiceRoll {
         }
         System.out.println("Bye, thanks for playing!");
     }
-
-
-
 
     public static void pressEnterKeyToContinue() {
         System.out.println("Press 'Enter' to roll dice: ");
